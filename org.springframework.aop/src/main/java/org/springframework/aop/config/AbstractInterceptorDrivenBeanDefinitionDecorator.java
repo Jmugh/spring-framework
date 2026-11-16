@@ -50,10 +50,6 @@ import org.springframework.util.StringUtils;
  *
  * <p>Subclasses have only to create the <code>BeanDefinition</code> to the interceptor that
  * they wish to add.
- *
- * @author Rob Harrop
- * @author Juergen Hoeller
- * @since 2.0
  * @see org.aopalliance.intercept.MethodInterceptor
  */
 public abstract class AbstractInterceptorDrivenBeanDefinitionDecorator implements BeanDefinitionDecorator {
